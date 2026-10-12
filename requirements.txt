@@ -1,0 +1,9 @@
+streamlit>=1.42.0
+pandas
+altair
+biopython
+requests
+numpy
+matplotlib
+scipy
+py3Dmol
