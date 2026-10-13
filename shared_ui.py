@@ -675,7 +675,7 @@ def render_protein_carousel(height=420, start_index=0, auto_ms=CAROUSEL_AUTO_MS)
       function init() {{
         viewer = $3Dmol.createViewer(viewerEl, {{ backgroundColor: "white" }});
         buildDots();
-        show(currentIndex, false);
+        show(currentIndex, true);
         restartTimer();
       }}
 
